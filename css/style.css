@@ -69,8 +69,8 @@ img {
 }
 .main-nav {
     display: flex;
-    justify-content: center;
-    gap: 2.5rem;
+    justify-content: right;
+    gap: 1.5rem;
     font-size: 1.5rem;
     list-style: none;
 }
