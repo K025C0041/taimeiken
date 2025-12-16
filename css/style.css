@@ -18,7 +18,7 @@ img {
 }
 /* レイアウト*/
 .wrapper {
-    max-width: 1120px;
+    max-width: 1160px;
     margin: auto;
     padding: 0 1.5rem;
 }
@@ -26,6 +26,10 @@ img {
     text-align: center;
 }
 
+/* 写真 */
+.example {
+    text-align: center;
+}
 /*見出し*/
 .font-english {
     font-family: 'Philosopher', sans-serif;
@@ -36,8 +40,8 @@ img {
 .heading-medium {
     font-size: 1.0rem;
     text-align: center;
-    margin-top: 2rem;
-    line-height: 1.4;
+    margin-top: rem;
+    line-height: 1.6;
 }
 .heading-large {
     font-size: 3rem;
