@@ -100,7 +100,7 @@ img {
 }
 .info th,
 .info td {
-    border-bottom: 1px solid #c9c2bc;
+    border-bottom: 1px solid #e2e264;
     font-size: 0.9rem
 }
 .info th {
@@ -110,4 +110,24 @@ img {
 }
 .info td {
     padding: 1rem 0;
+}
+.cover {
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+}
+/*.cover-home {
+    background-image: url(../images/yellow-white-gradient-square-background_7954-23665.avif)
+}*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
 }
