@@ -29,6 +29,7 @@ img {
 /* 写真 */
 .example {
     text-align: center;
+    margin-top: 5rem;
 }
 /*見出し*/
 .font-english {
@@ -40,7 +41,7 @@ img {
 .heading-medium {
     font-size: 1.0rem;
     text-align: center;
-    margin-top: rem;
+    margin-top: 0rem;
     line-height: 1.6;
 }
 .heading-large {
@@ -68,4 +69,45 @@ img {
 }
 .main-nav a:hover {
     color: #0bd;
+}
+/* ボタン */
+.btn {
+    display: inline-block;
+    font-size: 0.8rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+    transition: .5s;
+    margin-top: 5rem;
+}
+.btn:hover {
+    scale: 1.2;
+}
+/* フッター */
+.page-footer {
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+}
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+    margin-top: 1rem;
+}
+.info th,
+.info td {
+    border-bottom: 1px solid #c9c2bc;
+    font-size: 0.9rem
+}
+.info th {
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+.info td {
+    padding: 1rem 0;
 }
