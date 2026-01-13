@@ -80,6 +80,7 @@ img {
     padding: .75rem 1.5rem;
     transition: .5s;
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .btn:hover {
     scale: 1.2;
@@ -88,7 +89,8 @@ img {
 .page-footer {
     background-size: cover;
     background-position: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .info {
     width: 100%;
@@ -97,6 +99,7 @@ img {
     padding: 0 1.5rem;
     border-spacing: 0;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .info th,
 .info td {
@@ -177,5 +180,8 @@ img {
   margin-bottom: 2rem;
 }
 .item1 {
+    margin-bottom: 1rem;
+}
+.item {
     margin-bottom: 1rem;
 }
